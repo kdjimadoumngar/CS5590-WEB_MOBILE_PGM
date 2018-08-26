@@ -5,7 +5,7 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-
+ # Margin
 * {
   margin: 0;
   border: 0;
@@ -13,6 +13,7 @@
   list-style-type: none;
 }
 
+# Body
 body {
   font-family: Arial, sans-serif;
 }
@@ -159,20 +160,14 @@ footer {
   opacity: 1;
   border-top: solid 1px #CCC;
 }
-footer li {
-  display: inline;
-  margin: 0 20px;
-  font-size: 14px;
-}
-footer a {
-  text-decoration: none;
-  color: black;
-}
+# Position
+# Unordered left
 .ul-left {
   position: absolute;
   left: 0;
   top: 5px;
 }
+# Unordered right
 .ul-right {
   position: absolute;
   right: 0;
@@ -182,7 +177,27 @@ footer a:hover {
   text-decoration: underline;
 }
 
+# Clustering the images
+
+<div class="buttons">
+        <button name="Google-Search"><p>Google Search</p></button>
+        <button name="Feeling-Lucky"><p>I'm Feeling Lucky</p></button>
+	<img src="C:\Users\KIM-NDOR\Documents\GitHub\CS5590-WEB_MOBILE_PGM\Documentation\MyRepository.png" alt=" My Github Repository"> width="500" height="600">
+	<img src="C:\Users\KIM-NDOR\Documents\GitHub\CS5590-WEB_MOBILE_PGM\Documentation\MyRepository1.png" alt=" My Github Repository"> width="500" height="600">
+	<img src="C:\Users\KIM-NDOR\Documents\GitHub\CS5590-WEB_MOBILE_PGM\Documentation\MyRepository.png" alt="My Webstorm Screenshot"> width="500" height="600">
+
+    </div>
+
+# 3.	Draw the below ‘Tic Tac Toe’ game board using CSS elements with the help of table elements
+td {
+border: 0.5px solid;
+height: 30px;
+width: 20px;
+}
+
+
 </body>
 </html>
 
 # Source: class codes
+
