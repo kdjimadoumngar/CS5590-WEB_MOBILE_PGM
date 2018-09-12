@@ -1,0 +1,88 @@
+<style>
+body {
+    font-family: New "Times New Roman"
+    font-size: 15px;
+    padding: 8px;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-24 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+.col-48 {
+    -ms-flex: 50%
+    flex: 50%
+}
+.col-74 {
+    -ms-flex: 75%
+    flex:75%;
+}
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 15px;
+}
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightcyan;
+    border-radius: 3px;
+}
+input[type=text] {
+    width: 100%
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 3px
+}
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 22px:
+}
+.btn {
+    background-color: #4CAF50;
+    color: lightcyan;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    boder-radius: 3px;
+    cursor: pointer;
+    font-size: 15;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+a {
+    color: #2196F3:
+}
+hr {
+    border: 1px solid lightcyan;
+}
+span.price {
+    float: right:
+    color: #cccccc;
+}
+@media(max-width: 800) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-24 {
+        margin-bottom: 20px;
+    }
+}
+</style>
